@@ -39,7 +39,7 @@ function chatStripe (isAi, value, uniqueId) {
         <div class="chat">
           <div class="profile">
             <img 
-              src="${isAi ? "./assets/bot.svg" : "./assets/user.svg"}"
+              src="${isAi ? "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000xAny/9/9/2/512992_shutterstock_715962319converted_749269.png" : "./assets/user.svg"}"
               alt="${isAi ? 'bot' : 'user'}"
             />
           </div>
